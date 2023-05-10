@@ -14,3 +14,7 @@ handlers:
   # yang akan diarahkan ke script auto.
   - url: /.*
     script: auto
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 5
